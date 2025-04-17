@@ -244,6 +244,7 @@ function getDevServerConfig() {
         },
         host: '::',
         hot: true,
+        port: 3030,
         proxy: [
             {
                 context: [ '/' ],

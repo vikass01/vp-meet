@@ -300,7 +300,7 @@ function _translateInterfaceConfig(oldValue: IConfig) {
             && interfaceConfig.hasOwnProperty('DEFAULT_LOGO_URL')) {
             newValue.defaultLogoUrl = interfaceConfig.DEFAULT_LOGO_URL;
         } else {
-            newValue.defaultLogoUrl = 'images/watermark.svg';
+            newValue.defaultLogoUrl = 'images/V2-Logo.svg';
         }
     }
 
