@@ -27,7 +27,7 @@ var interfaceConfig = {
     CLOSE_PAGE_GUEST_HINT: false, // A html text to be shown to guests on the close page, false disables it
 
     DEFAULT_BACKGROUND: '#040404',
-    DEFAULT_WELCOME_PAGE_LOGO_URL: 'images/watermark.svg',
+    DEFAULT_WELCOME_PAGE_LOGO_URL: 'images/V2-Logo.svg',
 
     DISABLE_DOMINANT_SPEAKER_INDICATOR: false,
 

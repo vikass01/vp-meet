@@ -1,8 +1,8 @@
 {
-  "name": "jitsi-meet",
+  "name": "vp-meet",
   "version": "0.0.0",
-  "description": "A sample app for the Jitsi Videobridge",
-  "private": true,
+  "description": "A sample app for the video confrance from vikas panchal",
+  "private": false,
   "repository": {
     "type": "git",
     "url": "git://github.com/jitsi/jitsi-meet"
