@@ -242,7 +242,9 @@ function getDevServerConfig() {
                 warnings: false
             }
         },
-        host: '::',
+        // host: '::',
+        host: '0.0.0.0',
+
         hot: true,
         proxy: [
             {
@@ -255,7 +257,9 @@ function getDevServerConfig() {
                 }
             }
         ],
-        server: process.env.CODESPACES ? 'http' : 'https',
+        server: 'http',
+        // server: process.env.CODESPACES ? 'http' : 'https',
+
         static: {
             directory: process.cwd(),
             watch: {
