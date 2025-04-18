@@ -136,6 +136,8 @@ var interfaceConfig = {
      * help.
      */
     SUPPORT_URL: 'https://community.jitsi.org/',
+    DISABLE_BROWSER_WARNINGS: true,
+
 
     // Browsers, in addition to those which do not fully support WebRTC, that
     // are not supported and should show the unsupported browser page.
@@ -254,7 +256,9 @@ var interfaceConfig = {
     // Allow all above example options to include a trailing comma and
     // prevent fear when commenting out the last value.
     // eslint-disable-next-line sort-keys
-    makeJsonParserHappy: 'even if last key had a trailing comma'
+    makeJsonParserHappy: 'even if last key had a trailing comma',
+    DISABLE_BROWSER_WARNINGS: true,
+
 
     // No configuration value should follow this line.
 };

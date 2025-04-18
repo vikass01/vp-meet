@@ -1657,6 +1657,8 @@ var config = {
     /**
      * Default interval (milliseconds) for triggering mouseMoved iframe API event
      */
+    DISABLE_BROWSER_WARNINGS: true,
+
     mouseMoveCallbackInterval: 1000,
 
     /**
